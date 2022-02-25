@@ -1,11 +1,11 @@
-public class Cow implements Animal {
+public class Pig implements Animal {
     private String myType;
     private String mySound;
 
-    Cow()
+    Pig()
     {
-        myType = "cow";
-        mySound = "moo";
+        myType = "pig";
+        mySound = "oink";
     }
 
     public String getSound()

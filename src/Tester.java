@@ -1,6 +1,6 @@
 public class Tester{
     public static void main(String[] args){
-        Cow c = new Cow();
+        Pig c = new Pig();
         System.out.println( c.getType() + " goes " + c.getSound() );
         // < your code here >
     }
