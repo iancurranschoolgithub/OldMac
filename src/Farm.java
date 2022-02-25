@@ -6,12 +6,15 @@ public class Farm{
         myFarm.add(new Cow());
         myFarm.add(new Chick());
         myFarm.add(new Pig());
+        myFarm.add(new NamedCow());
     }
     public void animalSounds(){
         Animal temp;
-        for (int i = 0; i < myFarm.size(); i++){
+        for (int i = 0; i < myFarm.size(); i++) {
             temp = myFarm.get(i);
             System.out.println(temp.getType() + " goes " + temp.getSound());
         }
+            NamedCow named = (NamedCow) myFarm.get(3);
+            System.out.println(named.getName());
     }
 }
