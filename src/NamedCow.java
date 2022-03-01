@@ -4,10 +4,10 @@ public class NamedCow implements Animal {
     private String myType;
     private String mySound;
     private String myName;
-    
-    NamedCow()
+
+    NamedCow(String n)
     {
-        myName = "Elise";
+        myName = n;
         myType = "cow";
         mySound = "moo";
     }
