@@ -6,7 +6,7 @@ public class Farm{
         myFarm.add(new Cow());
         myFarm.add(new Chick());
         myFarm.add(new Pig());
-        myFarm.add(new NamedCow("Elise"));
+        myFarm.add(new NamedCow("deez"));
     }
     public void animalSounds(){
         Animal temp;
